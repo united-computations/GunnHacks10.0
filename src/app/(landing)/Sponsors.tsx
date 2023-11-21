@@ -11,7 +11,7 @@ export default function Sponsors() {
             </p>
 
             <div className="pt-8 pb-2 flex flex-wrap gap-x-5 gap-y-2 items-center justify-center">
-                <Sponsor href="https://www.wolfram.com" src="/sponsors/wolfram.svg" alt="Wolfram" />
+                {/* <Sponsor href="https://www.wolfram.com" src="/sponsors/wolfram.svg" alt="Wolfram" />
                 <Sponsor href="https://artofproblemsolving.com" src="/sponsors/aops.png" alt="AoPS" />
                 <Sponsor href="https://mule.to/p3df" src="/sponsors/sticker-mule.png" alt="Sticker Mule" />
                 <Sponsor href="https://www.janestreet.com/" src="/sponsors/jane-street.png" alt="Jane Street" />
@@ -19,7 +19,7 @@ export default function Sponsors() {
                 <Sponsor href="https://www.leangap.org/" src="/sponsors/leangap.svg" alt="Leangap" />
                 <Sponsor href="https://www.mitchellparkteenservices.org/thinkfund" src="/sponsors/think-fund.png" alt="Think Fund" />
                 <Sponsor href="https://www.cityofpaloalto.org/" src="/sponsors/city-of-palo-alto.png" alt="City of Palo Alto" />
-                <Sponsor href="https://gunn.paloaltopta.org/" src="/sponsors/ptsa.png" alt="Gunn PTSA" />
+                <Sponsor href="https://gunn.paloaltopta.org/" src="/sponsors/ptsa.png" alt="Gunn PTSA" /> */}
             </div>
         </Section>
     )

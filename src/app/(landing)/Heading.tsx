@@ -11,7 +11,7 @@ export default function Heading() {
         <section id="heading" className="text-white text-center h-screen relative flex flex-col items-center justify-center p-5">
             <div className={'flex flex-wrap justify-center gap-3 text-5xl sm:text-8xl tracking-wider mb-2 ' + overpass.className}>
                 <img className="w-12 h-12 sm:w-24 sm:h-24" src="/lambda.png" alt="lambda" />
-                <span className="pt-2">GunnHacks 10.0</span>
+                <span className="pt-2">GunnHaX</span>
             </div>
             <hr className="w-40 border-t-2 border-white mb-4" />
             <p className="mb-2">
