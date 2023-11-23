@@ -12,7 +12,7 @@ import Footer from '../../components/Footer';
 export default function Home() {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <Heading />
             <About />
             {/* <Schedule /> */}

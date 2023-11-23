@@ -8,13 +8,14 @@ const overpass = Overpass({
 
 export default function Heading() {
     return (
-        <section id="heading" className="text-white text-center h-screen relative flex flex-col items-center justify-center p-5">
-            <div className={'mb-2 relative ' + overpass.className}>
-                <span className="pt-2 text-6xl sm:text-9xl tracking-wider">GunnHa<span className="invisible">X</span></span>
-                <img className="absolute w-30 h-30 left-[calc(26rem)] top-[-3rem]" src="/X.svg" alt="lambda" />
+        <section id="heading" className="text-white text-center h-screen relative flex flex-col items-center justify-center p-5 pb-[30vh]">
+            
+            <div className={'mb-2 relative flex flex-col items-center md:block ' + overpass.className}>
+                <span className="pt-2 text-6xl md:text-9xl tracking-wider">GunnHa<span className="invisible">XX</span></span>
+                <img className="absolute w-32 md:w-64 left-[15rem] top-[-1.6rem] md:left-[calc(26rem)] md:top-[-3rem]" src="/X.svg" alt="X" />
 
-                <div className="ml-3 mt-[-.5rem]"> 
-                    <p className="mb-2 w-96 text-base text-left">
+                <div className="ml-3 md:mt-[-.5rem] flex flex-col items-center md:block">
+                    <p className="mb-2 w-96 text-base mt-16 md:mt-0 md:text-left">
                         {/* Make, Build, Create & Learn. It’s GunnHacks 10.0, Gunn’s 24‑hour high school hackathon! */}
                         January 27-28, 2024 | Gunn High School.<br />
                     </p>
