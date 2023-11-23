@@ -4,16 +4,15 @@ import Section from '../../components/Section';
 export default function About() {
     return (
         <Section title="About" id="about">
-            <p className="mb-4">The tenth iteration of GunnHacks, Gunn High School's annual hackathon.</p>
+            <p className="mb-4">Make, Build, Create & Learn. It’s GunnHacks 10.0, the tenth iteration of Gunn’s annual hackathon!</p>
             <p className="mb-4">
                 GunnHacks is a 24-hour high school hackathon hosted by the United Computations club at Gunn High School.
                 Throughout the years, we have continued this valued tradition to encourage students of all skill levels
                 and backgrounds to make cool projects and share what they can do.
             </p>
             <p>
-                Join us this year for an in-person, 24 hour high school hackathon with many games and workshops to look forward to.
-                Work in teams of up to four to create something amazing. We welcome any PAUSD student with an interest
-                in technology!
+                Join us this year for an in-person hackathon with many games and workshops to look forward to.
+                Work in teams of up to four to create something amazing!
             </p>
 
             {/* <p>
