@@ -16,7 +16,7 @@ export default function Heading() {
                 <div className="ml-3 mt-[-.5rem]"> 
                     <p className="mb-2 w-96 text-base text-left">
                         {/* Make, Build, Create & Learn. It’s GunnHacks 10.0, Gunn’s 24‑hour high school hackathon! */}
-                        January 20-21, 2024 | Gunn High School.<br />
+                        January 27-28, 2024 | Gunn High School.<br />
                     </p>
 
                     <div className="flex gap-4 text-2xl">
