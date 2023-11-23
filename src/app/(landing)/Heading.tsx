@@ -8,8 +8,8 @@ const overpass = Overpass({
 
 export default function Heading() {
     return (
-        <section id="heading" className="text-white text-center h-screen relative flex flex-col items-center justify-center p-5 pb-[30vh]">
-            
+        <section id="heading" className="text-white text-center h-screen relative flex flex-col items-center justify-center p-5 pb-[20vh]">
+
             <div className={'mb-2 relative flex flex-col items-center md:block ' + overpass.className}>
                 <span className="pt-2 text-6xl md:text-9xl tracking-wider">GunnHa<span className="invisible">XX</span></span>
                 <img className="absolute w-32 md:w-64 left-[15rem] top-[-1.6rem] md:left-[calc(26rem)] md:top-[-3rem]" src="/X.svg" alt="X" />
