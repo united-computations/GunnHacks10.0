@@ -14,10 +14,13 @@ export default function Sponsors() {
                 <Sponsor href="https://www.axure.com/" src="/sponsors/azure.svg" alt="Azure" />
                 <Sponsor href="https://www.applied-computing.org/" src="/sponsors/ACF.png" alt="Applied Computing Foundation" />
                 <Sponsor href="https://gen.xyz/" src="/sponsors/XYZ.svg" alt="XYZ" />
+                <Sponsor href="https://www.janestreet.com/" src="/sponsors/jane-street.png" alt="Jane Street" />
+                <Sponsor href="https://www.hudsonrivertrading.com/" src="/sponsors/HRT.png" alt="Hudson River Trading" />
+                <Sponsor href="https://www.wolfram.com" src="/sponsors/wolfram.png" alt="Wolfram" />
                 {/* <Sponsor href="https://www.wolfram.com" src="/sponsors/wolfram.svg" alt="Wolfram" />
                 <Sponsor href="https://artofproblemsolving.com" src="/sponsors/aops.png" alt="AoPS" />
                 <Sponsor href="https://mule.to/p3df" src="/sponsors/sticker-mule.png" alt="Sticker Mule" />
-                <Sponsor href="https://www.janestreet.com/" src="/sponsors/jane-street.png" alt="Jane Street" />
+                
                 <Sponsor href="https://linktr.ee/leadinglearners" src="/sponsors/leading-learners.png" alt="Leading Learners" />
                 <Sponsor href="https://www.leangap.org/" src="/sponsors/leangap.svg" alt="Leangap" />
                 <Sponsor href="https://www.mitchellparkteenservices.org/thinkfund" src="/sponsors/think-fund.png" alt="Think Fund" />
