@@ -5,7 +5,7 @@ export default function Sponsor(props: {href: string, src: string, alt: string})
             <img
                 src={src}
                 alt={alt}
-                className="max-w-[16rem] sm:max-w-[20rem] max-h-[6rem] px-4 py-2"
+                className="max-h-[6rem] px-4 py-2"
             />
         </a>
     )
