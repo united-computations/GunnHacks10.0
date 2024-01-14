@@ -12,7 +12,7 @@ export default function About() {
                 up to four to create something amazing!
             </p>
             <p className="mb-4">
-                Registration is open! Register for GunnHacks <a href="/register">here</a>.
+                Registration is open for PAUSD students! Register for GunnHacks <a href="/register">here</a>.
                 All hackers are also expected to follow MLH's <a href="http://hackp.ac/coc" target="_blank" rel="noopener noreferrer">Code of Conduct</a>.
             </p>
             {/*
