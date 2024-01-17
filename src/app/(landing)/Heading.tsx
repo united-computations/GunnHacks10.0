@@ -38,6 +38,12 @@ export default function Heading() {
                 
 
             </div>
+            <a className={"no-underline"} href="https://docs.google.com/forms/d/e/1FAIpQLSdF_KFH0pH_ryAx3uYglID2ITeXvoTaHfTh2i9YMgnlwLC91A/viewform" rel="noopener noreferrer" target="_blank">
+            <div className={'mt-20 rounded-lg px-16 py-5 text-2xl bg-white text-[#292834] hover:bg-[#F47722] transition ' + overpass.className}>
+                Register
+            </div>
+            </a>
+
             
             {/* <strong className="text-xl mb-4">January 21-22, 2023</strong> */}
 
