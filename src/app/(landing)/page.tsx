@@ -16,7 +16,7 @@ export default function Home() {
             <Heading />
             <About />
             {/* <Schedule /> */}
-            {/* <Prizes /> */}
+            <Prizes />
             {/* <Judges /> */}
             <FAQ />
             <Sponsors />

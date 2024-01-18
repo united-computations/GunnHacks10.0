@@ -6,32 +6,35 @@ const mainPrizes = [{
     name: 'Top 3 Teams', 
     value: 
     [
-        'Bluetooth Speaker', 
-        'Gaming Mouse', 
-        'Arduino Kit'
+        'Echo Dot', 
+        'JBL Bluetooth Speaker', 
+        'JBL Wireless Headphones'
     ]
 },
 {
     name: 'Category Awards',
     value: [
-        'Power Bank',
-        'Echo Dot',
-        'Adafruit Feather'
+        'Gaming Mice',
+        'Power Banks',
+        '1TB USB Drives',
+        'Power Strips'
     ]
 },
 {
     name: 'Other Awards',
     value: [
-        'Enter Key',
-        'LED Lights'
+        'Massive Enter Keys',
+        'Discord Nitro',
+        'Stylus Pens',
+        'Lamps'
     ]
 },
 {
     name: 'Sponsored Awards',
     value: [
-        'Wolfram Award',
-        'Leading Learners Expansion Packs',
-        'AoPS'
+        'Free .xyz Domains (For All Participants)',
+        'Desmos Merchandise',
+        'WolframAlpha Pro'
     ]
 }
 ];
@@ -40,8 +43,9 @@ const miniEventPrizes = [{
     name: 'Mini Event Awards',
     value: [
         'Cow Plush',
-        'RadioShack Kit',
-        'Magnetic Chess'
+        'Rubber Duck',
+        'Chess Pawn Stress Toy',
+        'Cup Keychain'
     ]
 }];
 
