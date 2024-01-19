@@ -26,7 +26,7 @@ const mainPrizes = [{
         'Massive Enter Keys',
         'Discord Nitro',
         'Stylus Pens',
-        'Lamps'
+        'LED Desk Lamps'
     ]
 },
 {
