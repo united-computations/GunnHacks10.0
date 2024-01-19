@@ -6,7 +6,7 @@ export default function Schedule() {
     return (
         <Section red title="Schedule" id="schedule">
             <div className="flex flex-wrap gap-8">
-                <ScheduleDay name="January 21">
+                <ScheduleDay name="January 27">
                     <ScheduleItem start="1:30 PM">Doors open</ScheduleItem>
                     <ScheduleItem start="2:00 PM" end="2:30 PM">Opening ceremony</ScheduleItem>
                     <ScheduleItem start="2:30 PM" end="3:00 PM">Team formation</ScheduleItem>
@@ -19,7 +19,7 @@ export default function Schedule() {
                     <ScheduleItem start="10:00 PM" end="10:30 PM">Cow Drawing Competition</ScheduleItem>
                     <ScheduleItem start="10:00 PM" end="12:00 AM">Movie Night</ScheduleItem>
                 </ScheduleDay>
-                <ScheduleDay name="January 22">
+                <ScheduleDay name="January 28">
                     <ScheduleItem start="8:00 AM">Breakfast</ScheduleItem>
                     <ScheduleItem start="10:00 AM" end="10:30 AM">Cup Stacking</ScheduleItem>
                     <ScheduleItem start="10:45 AM" end="11:30 AM">Chess Tourney</ScheduleItem>
