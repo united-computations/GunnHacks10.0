@@ -21,8 +21,8 @@ export default function FAQ() {
                     for you to start off or learn something new.
                 </Question>
                 <Question q="What can I build?">
-                    Web, mobile, hardware, you name it — any type of project is welcome. Projects will be judged based
-                    on creativity, technical difficulty, polish, and utility by a panel of industry judges.
+                    Web, mobile, hardware, you name it — any type of project is welcome, as long as it is built within the hacking time frame.
+                    Projects will be judged based on technical difficulty, practicality, creativity, and user experience by a panel of industry judges.
                 </Question>
                 {/* Update with team formation event info when that becomes available */}
                 <Question q="How big should teams be?">

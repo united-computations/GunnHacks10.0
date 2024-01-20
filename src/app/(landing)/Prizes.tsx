@@ -51,7 +51,7 @@ const miniEventPrizes = [{
 
 export default function Prizes() {
     return (
-        <Section title="Prizes" id="prizes">
+        <Section red title="Prizes" id="prizes">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {mainPrizes.map(prize => (
                     <div key={prize.name}>
@@ -79,7 +79,7 @@ export default function Prizes() {
 
 function Prize(props: {children: ReactNode}) {
     return (
-        <li className="p-4 bg-white rounded-lg mb-2.5 rounded-md border border-theme">
+        <li className="p-4 bg-white rounded-lg mb-2.5 rounded-md text-black">
             {props.children}
         </li>
     )

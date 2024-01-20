@@ -15,10 +15,10 @@ export default function Home() {
             {/* <Header /> */}
             <Heading />
             <About />
+            <FAQ />
             <Schedule />
             <Prizes />
             {/* <Judges /> */}
-            <FAQ />
             <Sponsors />
             <Footer />
         </div>
