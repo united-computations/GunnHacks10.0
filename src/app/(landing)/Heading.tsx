@@ -39,17 +39,23 @@ export default function Heading() {
 
             </div>
             <a className={"no-underline"} href="https://docs.google.com/forms/d/e/1FAIpQLSdF_KFH0pH_ryAx3uYglID2ITeXvoTaHfTh2i9YMgnlwLC91A/viewform" rel="noopener noreferrer" target="_blank">
-            <div className={'mt-20 rounded-lg px-16 py-5 text-2xl bg-white text-[#292834] hover:bg-[#F47722] transition font-bold'}>
+            <div className={'mt-10 rounded-lg px-16 py-4 text-2xl bg-white text-[#292834] hover:bg-[#F47722] transition font-bold'}>
                 Register
             </div>
             </a>
 
-            
+            <div className='text-2xl mt-5 flex gap-2 items-center'>
+                <span className='text-[#F47722] text-5xl'>[</span>
+                <a href="https://docs.google.com/document/d/1RHcsMJANFuJC4UyZ3ECxpfC0QOi8cvSeZquez7P1Ahg/edit" rel="noopener noreferrer" target="_blank">Hacker Guide</a>
+                <span className='text-[#F47722] text-5xl'>]</span>
+            </div>
             {/* <strong className="text-xl mb-4">January 21-22, 2023</strong> */}
 
             <a id="mlh-trust-badge" style={{ display: "block", maxWidth:"100px", minWidth:"60px", position:"fixed", right:"50px", top:0, width:"10%", zIndex:10000, filter: "drop-shadow(0px 9px 12px #00000055)" }} href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white" target="_blank">
                 <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg" alt="Major League Hacking 2024 Hackathon Season" style={{width: "100%"}} />
             </a>
+
+            
         </section>
     )
 }
