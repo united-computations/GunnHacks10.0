@@ -13,6 +13,7 @@ export default function Schedule() {
                     <ScheduleItem start="3:00 PM" bold>Commence Hacking!</ScheduleItem>
                     <ScheduleItem start="3:15 PM" end="4:45 PM">Intro to Code</ScheduleItem>
                     <ScheduleItem start="5:00 PM" end="6:30 PM">Basic AI/ML</ScheduleItem>
+                    <ScheduleItem start="5:00 PM" end="6:30 PM">Github Copilot Workshop by MLH</ScheduleItem>
                     <ScheduleItem start="6:30 PM">Dinner</ScheduleItem>
                     <ScheduleItem start="7:00 PM" end="7:30 PM">Coding Trivia Kahoot</ScheduleItem>
                     <ScheduleItem start="7:30 PM" end="8:45 PM">Web Dev/Discord Bots Workshop</ScheduleItem>
