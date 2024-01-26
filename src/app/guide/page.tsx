@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
-    title: 'Hacker Guide | GunnHacks 9.0'
+    title: 'Hacker Guide | GunnHaX'
 }
 
 export default function Guide() {
