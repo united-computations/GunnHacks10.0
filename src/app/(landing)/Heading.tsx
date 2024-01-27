@@ -1,12 +1,40 @@
+"use client"
 import { Overpass } from '@next/font/google';
 import { RiFacebookFill, RiInstagramFill, RiDiscordFill } from 'react-icons/ri';
 import { FaEnvelope } from 'react-icons/fa';
+import { useEffect, useState } from 'react';
 
 const overpass = Overpass({
     subsets: ['latin']
 });
 
+const msToTime = (time: number) => {
+    let ms = time % 1000 + ''; time = Math.floor(time / 1000);
+    let sec = time % 60 + ''; time = Math.floor(time / 60);
+    let min = time % 60 + ''; time = Math.floor(time / 60);
+    let hours = time + '';
+    
+    if (ms.length < 2) ms = "0" + ms;
+    if (sec.length < 2) sec = "0" + sec;
+    if (min.length < 2) min = "0" + min;
+    if (hours.length < 2) hours = "0" + hours;
+
+    return `${hours} : ${min} : ${sec}`;
+}
+
 export default function Heading() {
+
+    const [ time, setTime ] = useState<null|number>(null);
+    const END = new Date('2024-01-28T15:00:00').getTime();
+
+    useEffect(() => {
+        setTime(new Date().getTime());
+        const inv = setInterval(() => {
+            setTime(new Date().getTime());
+        }, 100);
+        return () => clearInterval(inv);
+    }, []);
+
     return (
         <section id="heading" className="text-white text-center h-screen relative flex flex-col items-center justify-center p-5 pb-[20vh]">
 
@@ -38,13 +66,12 @@ export default function Heading() {
                 
 
             </div>
-            <a className={"no-underline"} href="https://docs.google.com/forms/d/e/1FAIpQLSdF_KFH0pH_ryAx3uYglID2ITeXvoTaHfTh2i9YMgnlwLC91A/viewform" rel="noopener noreferrer" target="_blank">
-            <div className={'mt-10 rounded-lg px-16 py-4 text-2xl bg-white text-[#292834] hover:bg-[#F47722] transition font-bold'}>
-                Register
+            
+            <div className={'mt-10 px-16 py-4 text-2xl font-bold'}>
+                {time ? (time < END ? `The hacking period will end in ${time ? msToTime(END - time) : ''}.` : `The hacking period has ended.`) : '...'}
             </div>
-            </a>
 
-            <div className='text-2xl mt-5 flex gap-2 items-center'>
+            <div className='text-2xl mt-3 flex gap-2 items-center'>
                 <span className='text-[#F47722] text-5xl'>[</span>
                 <a href="https://docs.google.com/document/d/1RHcsMJANFuJC4UyZ3ECxpfC0QOi8cvSeZquez7P1Ahg/edit" rel="noopener noreferrer" target="_blank">Hacker Guide</a>
                 <span className='text-[#F47722] text-5xl'>]</span>
